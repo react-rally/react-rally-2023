@@ -11,7 +11,7 @@ import Sponsors from 'screens/Sponsors';
 import Stream from 'screens/Stream';
 import Venue from 'screens/Venue';
 import ga from 'helpers/googleAnalytics';
-import styles from './assets/css/styles.scss';
+import './assets/css/styles.css';
 
 const NotFound = () => {
   return (

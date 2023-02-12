@@ -34,8 +34,8 @@ module.exports = {
         loader: 'file'
       },
       {
-        test: /\.scss$/,
-        loaders: ['style', 'css', 'sass']
+        test: /\.css$/,
+        loaders: ['style', 'css']
       },
       {
         test: /\/api\//,

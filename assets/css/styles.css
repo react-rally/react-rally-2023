@@ -1,45 +1,47 @@
 /* font colors */
-$color-primary: #232323;
-$color-white: #ffffff;
-$color-grayLightest: #f4f4f4;
-$color-grayLight: #dcdcdc;
-$color-gray: #999999;
-$color-grayDark: #777777;
-$color-grayDarkest: #444444;
-$color-black: #000000;
-$color-red: #dd4b53;
-$color-redDark: #c20000;
-$color-tealLight: #008997;
-$color-teal: #36a5a8;
-$color-tealDark: #005659;
+:root {
+  --color-primary: #232323;
+  --color-white: #ffffff;
+  --color-grayLightest: #f4f4f4;
+  --color-grayLight: #dcdcdc;
+  --color-gray: #999999;
+  --color-grayDark: #777777;
+  --color-grayDarkest: #444444;
+  --color-black: #000000;
+  --color-red: #dd4b53;
+  --color-redDark: #c20000;
+  --color-tealLight: #008997;
+  --color-teal: #36a5a8;
+  --color-tealDark: #005659;
 
-/* legacy colors */
-$fill-lightyellow: #ffffaf;
-$fill-mediumgreen: #57b5ac;
+  /* legacy colors */
+  --fill-lightyellow: #ffffaf;
+  --fill-mediumgreen: #57b5ac;
 
-/* dimensions */
-$width-column: 12%;
-$size-font-xxlarge: 75px;
-$size-font-xlarge: 40px;
-$size-font-large: 28px;
-$size-font-default: 20px;
-$size-font-medium: 18px;
-$size-font-small: 14px;
-$size-font-xsmall: 12px;
-$banner-offset: 42px;
+  /* dimensions */
+  --width-column: 12%;
+  --size-font-xxlarge: 75px;
+  --size-font-xlarge: 40px;
+  --size-font-large: 28px;
+  --size-font-default: 20px;
+  --size-font-medium: 18px;
+  --size-font-small: 14px;
+  --size-font-xsmall: 12px;
+  --banner-offset: 42px;
+}
 
 /* typography */
 body {
-  background-color: $color-white;
-  color: $color-primary;
+  background-color: var(--color-white);
+  color: var(--color-primary);
   font-family: 'Rubik', sans-serif;
-  font-size: $size-font-default;
+  font-size: var(--size-font-default);
   margin: 0;
   min-width: 360px;
 }
 
 a {
-  color: $color-red;
+  color: var(--color-red);
   text-decoration: none;
 }
 a:hover {
@@ -52,8 +54,8 @@ h3,
 h4,
 h5,
 h6 {
-  color: $color-tealLight;
-  border-left: 4px solid $color-tealDark;
+  color: var(--color-tealLight);
+  border-left: 4px solid var(--color-tealDark);
   margin-left: -20px;
   padding-left: 20px;
   font-family: 'Rubik', sans-serif;
@@ -61,8 +63,8 @@ h6 {
 }
 
 section h1 {
-  color: $color-grayDarkest;
-  font-size: $size-font-xlarge;
+  color: var(--color-grayDarkest);
+  font-size: var(--size-font-xlarge);
   margin-bottom: 50px;
 }
 
@@ -73,7 +75,7 @@ input[type='text'],
 input[type='email'] {
   border-radius: 5px;
   font-family: 'Rubik', sans-serif;
-  font-size: $size-font-medium;
+  font-size: var(--size-font-medium);
   padding: 5px 10px;
 }
 
@@ -81,8 +83,8 @@ input[type='email'] {
 button {
   border: 0 none;
   border-radius: 5px;
-  background-color: $color-white;
-  color: $color-red;
+  background-color: var(--color-white);
+  color: var(--color-red);
   cursor: pointer;
   display: inline-block;
   padding: 8px 25px;
@@ -90,40 +92,40 @@ button {
 }
 .Button:hover,
 button:hover {
-  color: $color-redDark;
+  color: var(--color-redDark);
   text-decoration: none;
 }
 .Button.primary,
 button.primary {
-  background-color: $color-red;
-  color: $color-white;
+  background-color: var(--color-red);
+  color: var(--color-white);
 }
 .Button.primary:not([disabled]):hover,
 button.primary:not([disabled]):hover {
-  background-color: $color-redDark;
+  background-color: var(--color-redDark);
 }
 .Button.large,
 button.large {
-  font-size: $size-font-default;
+  font-size: var(--size-font-default);
   padding: 12px 35px;
 }
 .Button.transparent,
 button.transparent {
   background-color: transparent;
-  border-color: $color-white;
-  color: $color-white;
+  border-color: var(--color-white);
+  color: var(--color-white);
 }
 
 .Button[disabled],
 button[disabled] {
-  background-color: $color-grayLightest;
-  border-color: $color-grayLight;
-  color: $color-grayDarkest;
+  background-color: var(--color-grayLightest);
+  border-color: var(--color-grayLight);
+  color: var(--color-grayDarkest);
 }
 
 input[type='text'],
 input[type='email'] {
-  border: 1px solid $color-white;
+  border: 1px solid var(--color-white);
   line-height: 1.6;
   width: 260px;
 }
@@ -144,28 +146,28 @@ input[type='email'] {
   vertical-align: top;
 }
 .col-1 {
-  width: $width-column;
+  width: var(--width-column);
 }
 .col-2 {
-  width: $width-column * 2;
+  width: var(--width-column * 2);
 }
 .col-3 {
-  width: $width-column * 3;
+  width: var(--width-column * 3);
 }
 .col-4 {
-  width: $width-column * 4;
+  width: var(--width-column * 4);
 }
 .col-5 {
-  width: $width-column * 5;
+  width: var(--width-column * 5);
 }
 .col-6 {
-  width: $width-column * 6;
+  width: var(--width-column * 6);
 }
 .col-7 {
-  width: $width-column * 7;
+  width: var(--width-column * 7);
 }
 .col-8 {
-  width: $width-column * 8;
+  width: var(--width-column * 8);
 }
 
 /* classes */
@@ -193,7 +195,7 @@ input[type='email'] {
   list-style: none;
 }
 .link-list li {
-  border-left: 4px solid $color-red;
+  border-left: 4px solid var(--color-red);
   padding-left: 15px;
   margin-bottom: 15px;
   height: 8px;
@@ -204,21 +206,21 @@ input[type='email'] {
 }
 
 .Link {
-  color: $color-red;
+  color: var(--color-red);
   text-transform: uppercase;
 }
 .Content .Link {
-  font-size: $size-font-small;
+  font-size: var(--size-font-small);
 }
 
 /* -- Home -- */
 .Content .Home__About section.highlight {
-  background-color: $color-white;
+  background-color: var(--color-white);
   margin-bottom: 25px;
   padding: 0;
 }
 .Home__Header__Wrapper {
-  color: $color-black;
+  color: var(--color-black);
   padding: 50px;
   padding-bottom: 100px;
   display: grid;
@@ -226,39 +228,39 @@ input[type='email'] {
 }
 .Home__Header__Wrapper h1,
 .Home__Header__Wrapper h2 {
-  color: $color-black;
+  color: var(--color-black);
   padding-left: 0;
 }
 .Home__Header__Wrapper h1 {
-  font-size: $size-font-xxlarge;
+  font-size: var(--size-font-xxlarge);
 }
 .Home__Header__Wrapper h2 {
-  font-size: $size-font-xlarge;
+  font-size: var(--size-font-xlarge);
 }
 .Home__Header__Wrapper .Button,
 .Home__Header__Wrapper button {
-  background-color: $color-white;
-  color: $color-teal;
+  background-color: var(--color-white);
+  color: var(--color-teal);
 }
 .Home__Header__Wrapper .Button:hover,
 .Home__Header__Wrapper button:hover {
-  color: $color-tealDark;
+  color: var(--color-tealDark);
 }
 .Home__Header__Wrapper .Button.primary,
 .Home__Header__Wrapper button.primary {
-  background-color: $color-teal;
-  color: $color-white;
+  background-color: var(--color-teal);
+  color: var(--color-white);
 }
 .Home__Header__Wrapper .Button.primary:hover,
 .Home__Header__Wrapper button.primary:hover {
-  background-color: $color-tealDark;
+  background-color: var(--color-tealDark);
 }
 .Home__Header__Logo {
   height: 100px;
   transform: translate(-25%, 150%) rotate(270deg);
 }
 .Home__Header__Content {
-  border-left: 4px solid $color-black;
+  border-left: 4px solid var(--color-black);
   padding-left: 25px;
   margin-left: 25px;
   width: 525px;
@@ -272,7 +274,7 @@ input[type='email'] {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .Home__Header__Buttons .Button.primary {
-  background: $color-red;
+  background: var(--color-red);
 }
 
 .Home__UpcomingDate {
@@ -281,25 +283,25 @@ input[type='email'] {
   margin: 25px 0;
 }
 .Home__UpcomingDate--disabled {
-  color: $color-grayDarkest;
+  color: var(--color-grayDarkest);
 }
 .Home__UpcomingDate--disabled time {
   text-decoration: line-through;
 }
 .Home__UpcomingDate img {
-  color: $color-teal;
+  color: var(--color-teal);
 }
 .Home__UpcomingDate time {
-  font-size: $size-font-medium;
+  font-size: var(--size-font-medium);
   font-weight: bold;
   display: block;
 }
 .Home__UpcomingDate small {
-  font-size: $size-font-medium;
+  font-size: var(--size-font-medium);
 }
 
 .Home__TicketCard {
-  background-color: $color-grayLightest;
+  background-color: var(--color-grayLightest);
   padding: 25px;
   margin: 10px 0;
   display: grid;
@@ -314,13 +316,13 @@ input[type='email'] {
   margin-bottom: 10px;
 }
 .Home__TicketCard h3 {
-  color: $color-primary;
+  color: var(--color-primary);
 }
 .Home__TicketCard--disabled h3 {
   text-decoration: line-through;
 }
 .Home__TicketCard__Order {
-  background-color: $color-white;
+  background-color: var(--color-white);
   text-align: center;
   padding: 25px;
 }
@@ -358,8 +360,8 @@ input[type='email'] {
   margin-top: 25px;
 }
 .Stream__Note {
-  color: $color-grayDark;
-  font-size: $size-font-xsmall;
+  color: var(--color-grayDark);
+  font-size: var(--size-font-xsmall);
 }
 .Stream h2 {
   border: 0 none;
@@ -369,8 +371,8 @@ input[type='email'] {
   text-align: left;
 }
 .Stream .highlight {
-  background-color: $color-grayLightest;
-  font-size: $size-font-small;
+  background-color: var(--color-grayLightest);
+  font-size: var(--size-font-small);
   margin-top: 25px;
 }
 
@@ -389,13 +391,13 @@ input[type='email'] {
   grid-template-columns: 500px auto;
 }
 .Venue__Details__Mapbox {
-  background-color: $color-grayLightest;
+  background-color: var(--color-grayLightest);
   padding: 25px;
   margin-right: 50px;
 }
 .Venue__Details__Mapbox .Button,
 .Venue__Details__Mapbox button {
-  box-shadow: 0 3px 5px $color-grayLight;
+  box-shadow: 0 3px 5px var(--color-grayLight);
 }
 .Venue__Details__Mapbox__Address {
   margin: 20px 0;
@@ -406,7 +408,7 @@ input[type='email'] {
 
 /* -- Schedule -- */
 .Schedule__Menu {
-  border: 1px solid $fill-mediumgreen;
+  border: 1px solid var(--fill-mediumgreen);
   border-left-width: 0;
   border-right-width: 0;
   padding: 0;
@@ -419,13 +421,13 @@ input[type='email'] {
   width: 50%;
 }
 .Schedule__Menu__Item--active {
-  background: $fill-mediumgreen;
-  color: $color-white;
+  background: var(--fill-mediumgreen);
+  color: var(--color-white);
 }
 
 .Schedule__Session {
-  background: $color-white;
-  border-bottom: 1px solid $color-grayLight;
+  background: var(--color-white);
+  border-bottom: 1px solid var(--color-grayLight);
   padding: 25px;
   position: relative;
   -webkit-transition: background-color 2s;
@@ -437,12 +439,12 @@ input[type='email'] {
   border-bottom: 0 none;
 }
 .Schedule__Session time {
-  color: $color-grayDark;
+  color: var(--color-grayDark);
   display: inline-block;
   vertical-align: top;
 }
 .Schedule__Session--active {
-  background: $fill-lightyellow;
+  background: var(--fill-lightyellow);
 }
 .Schedule__Session__Title {
   display: inline-block;
@@ -460,17 +462,17 @@ input[type='email'] {
   // margin-top: -60px;
 }
 .Schedule__Session__Description em {
-  color: $color-tealLight;
+  color: var(--color-tealLight);
   font-style: normal;
-  font-size: $size-font-small;
+  font-size: var(--size-font-small);
 }
 .Schedule__Session__Description h4 {
   border: 0 none;
   padding: 0;
-  color: $color-grayDarkest;
+  color: var(--color-grayDarkest);
 }
 .Schedule__Session__Description p {
-  font-size: $size-font-small;
+  font-size: var(--size-font-small);
   margin: 10px 0;
 }
 .Schedule__Session__Avatar {
@@ -484,32 +486,32 @@ input[type='email'] {
 }
 .Conduct table {
   border-collapse: collapse;
-  border-top: 3px solid $color-grayLight;
+  border-top: 3px solid var(--color-grayLight);
   width: 100%;
 }
 .Conduct table tr:nth-child(even) {
-  background-color: $color-grayLightest;
+  background-color: var(--color-grayLightest);
 }
 .Conduct table td {
-  border-bottom: 1px solid $color-grayLight;
+  border-bottom: 1px solid var(--color-grayLight);
   padding: 10px 0;
 }
 
 /* -- Content -- */
 .Content {
-  font-size: $size-font-medium;
+  font-size: var(--size-font-medium);
   padding: 50px 175px;
 }
 .Content section {
   padding: 25px;
 }
 .Content section.highlight {
-  background-color: $color-grayLightest;
+  background-color: var(--color-grayLightest);
   border-radius: 10px;
 }
 .Content section.highlight .Button,
 .Content section.highlight button {
-  box-shadow: 0 3px 5px $color-grayLight;
+  box-shadow: 0 3px 5px var(--color-grayLight);
 }
 .Content section > h2 {
   margin-left: -25px;
@@ -518,19 +520,19 @@ input[type='email'] {
 
 /* -- Header -- */
 .Header {
-  background-color: $color-teal;
+  background-color: var(--color-teal);
 }
 .Header__Home {
   background: url(../dist/img/Hero.png) no-repeat center 0 fixed;
   background-size: cover;
 }
 .Header__Home .Header__Nav {
-  background-color: $color-black;
+  background-color: var(--color-black);
 }
 .Header__Home .Header__Nav a.Button {
-  border: 1px solid $color-white;
-  background: $color-black;
-  color: $color-white !important;
+  border: 1px solid var(--color-white);
+  background: var(--color-black);
+  color: var(--color-white) !important;
 }
 .Header__Home .Header__Nav ul {
   margin-left: 0;
@@ -546,10 +548,10 @@ input[type='email'] {
 }
 .Header__Nav button.Header__Nav__Button {
   display: none;
-  color: $color-red;
+  color: var(--color-red);
   position: absolute;
   height: 57px;
-  top: 17px + $banner-offset;
+  top: 17px + var(--banner-offset);
   right: 25px;
 }
 .Header__Nav section:last-of-type {
@@ -563,7 +565,7 @@ input[type='email'] {
   margin-left: 50px;
   padding: 0;
   display: inline-block;
-  font-size: $size-font-medium;
+  font-size: var(--size-font-medium);
   line-height: 44px;
   list-style: none;
 }
@@ -579,7 +581,7 @@ input[type='email'] {
   text-decoration: none;
 }
 .Header__Nav li a.active {
-  border-color: $color-white;
+  border-color: var(--color-white);
   font-weight: bold;
 }
 
@@ -590,10 +592,10 @@ input[type='email'] {
 .Header__Nav a:hover,
 .Header__Nav .Icon:hover,
 .Header__Nav .Icon {
-  color: $color-white;
+  color: var(--color-white);
 }
 .Header__Nav a.Button {
-  color: $color-teal;
+  color: var(--color-teal);
 }
 .Header__Nav .Icon {
   line-height: 44px;
@@ -601,7 +603,7 @@ input[type='email'] {
 }
 .Header__Nav__Button__Hamburger {
   display: block;
-  background-color: $color-red;
+  background-color: var(--color-red);
   height: 4px;
   width: 23px;
   border-radius: 4px;
@@ -609,7 +611,7 @@ input[type='email'] {
   &::before {
     content: ' ';
     display: block;
-    background-color: $color-red;
+    background-color: var(--color-red);
     height: 4px;
     width: 23px;
     border-radius: 4px;
@@ -620,7 +622,7 @@ input[type='email'] {
   &::after {
     content: ' ';
     display: block;
-    background-color: $color-red;
+    background-color: var(--color-red);
     height: 4px;
     width: 23px;
     border-radius: 4px;
@@ -630,7 +632,7 @@ input[type='email'] {
 }
 .Header__Nav__Button__X {
   display: none;
-  font-size: $size-font-xlarge;
+  font-size: var(--size-font-xlarge);
 }
 .Header__Logo {
   padding-left: 50px;
@@ -639,8 +641,8 @@ input[type='email'] {
 /* -- Footer -- */
 
 .Footer {
-  color: $color-grayDarkest;
-  background-color: $color-grayLightest;
+  color: var(--color-grayDarkest);
+  background-color: var(--color-grayLightest);
   font-size: 0.8em;
   padding: 50px;
 }
@@ -651,7 +653,7 @@ input[type='email'] {
 }
 .Footer h2,
 .Footer h4 {
-  color: $color-grayDarkest;
+  color: var(--color-grayDarkest);
   border: 0 none;
   padding: 0;
 }
@@ -662,7 +664,7 @@ input[type='email'] {
   padding: 0 0 25px 0;
 }
 section.Footer__Tickets {
-  background-color: $color-white;
+  background-color: var(--color-white);
   border-radius: 10px;
   padding: 50px;
   text-align: center;
@@ -688,12 +690,12 @@ section.Footer__Tickets h2 {
 }
 .Person b {
   display: inline-block;
-  font-size: $size-font-medium;
+  font-size: var(--size-font-medium);
 }
 .Person em {
-  color: $color-grayDarkest;
+  color: var(--color-grayDarkest);
   display: inline-block;
-  font-size: $size-font-small;
+  font-size: var(--size-font-small);
   height: 45px;
 }
 .Person__Social {
@@ -715,11 +717,11 @@ section.Footer__Tickets h2 {
   padding-bottom: 25px;
 }
 .Features tbody th div {
-  color: $color-tealLight;
+  color: var(--color-tealLight);
 }
 .Features td {
   padding: 10px 0;
-  border-bottom: 1px solid $color-grayLight;
+  border-bottom: 1px solid var(--color-grayLight);
 }
 .Features td:first-child {
   font-size: 0.8em;
@@ -727,7 +729,7 @@ section.Footer__Tickets h2 {
 .Features td:not(:first-child) {
   text-align: center;
   width: 100px;
-  color: $color-tealLight;
+  color: var(--color-tealLight);
 }
 .Features tfoot th {
   padding: 10px 0;
@@ -738,12 +740,12 @@ section.Footer__Tickets h2 {
   text-align: left;
 }
 .Features tfoot th:not(:first-child) {
-  color: $color-red;
+  color: var(--color-red);
 }
 
 /* -- Icon -- */
 .Icon {
-  color: $color-grayDark;
+  color: var(--color-grayDark);
   display: inline-block;
   font-size: 28px;
   width: 42px;
@@ -751,7 +753,7 @@ section.Footer__Tickets h2 {
   text-align: center;
 }
 .Icon:hover {
-  color: $color-grayDarkest;
+  color: var(--color-grayDarkest);
 }
 
 /* -- Newsletter -- */
@@ -760,12 +762,12 @@ section.Footer__Tickets h2 {
 }
 .Newsletter__Label {
   font-weight: bold;
-  font-size: $size-font-default;
+  font-size: var(--size-font-default);
   display: inline-block;
   margin-right: 20px;
 }
 .Newsletter button {
-  box-shadow: 0 3px 5px $color-grayLight;
+  box-shadow: 0 3px 5px var(--color-grayLight);
 }
 
 /* -- Tickets -- */
@@ -780,7 +782,7 @@ section.Footer__Tickets h2 {
   min-width: 200px;
 }
 .Countdown__Timer {
-  color: $color-white;
+  color: var(--color-white);
   font-family: 'Source Code Pro', monospace;
 }
 
@@ -792,7 +794,7 @@ section.Footer__Tickets h2 {
   width: 150px;
   line-height: 50px;
   text-align: center;
-  font-size: $size-font-small;
+  font-size: var(--size-font-small);
 }
 .StyleGuide .Color:first-of-type {
   border-top-left-radius: 5px;
@@ -803,54 +805,54 @@ section.Footer__Tickets h2 {
   border-bottom-right-radius: 5px;
 }
 .Color--white {
-  background-color: $color-white;
-  border: 1px solid $color-grayLightest;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-grayLightest);
 }
 .Color--primary {
-  background-color: $color-primary;
-  color: $color-grayLightest;
+  background-color: var(--color-primary);
+  color: var(--color-grayLightest);
 }
 .Color--grayLightest {
-  background-color: $color-grayLightest;
+  background-color: var(--color-grayLightest);
 }
 .Color--grayLight {
-  background-color: $color-grayLight;
+  background-color: var(--color-grayLight);
 }
 .Color--gray {
-  background-color: $color-gray;
+  background-color: var(--color-gray);
 }
 .Color--grayDark {
-  background-color: $color-grayDark;
+  background-color: var(--color-grayDark);
 }
 .Color--grayDarkest {
-  background-color: $color-grayDarkest;
-  color: $color-grayLight;
+  background-color: var(--color-grayDarkest);
+  color: var(--color-grayLight);
 }
 .Color--tealLight {
-  background-color: $color-tealLight;
-  color: $color-grayLight;
+  background-color: var(--color-tealLight);
+  color: var(--color-grayLight);
 }
 .Color--teal {
-  background-color: $color-teal;
-  color: $color-grayLight;
+  background-color: var(--color-teal);
+  color: var(--color-grayLight);
 }
 .Color--tealDark {
-  background-color: $color-tealDark;
-  color: $color-grayLight;
+  background-color: var(--color-tealDark);
+  color: var(--color-grayLight);
 }
 .Color--red {
-  background-color: $color-red;
-  color: $color-grayLight;
+  background-color: var(--color-red);
+  color: var(--color-grayLight);
 }
 .Color--redDark {
-  background-color: $color-redDark;
-  color: $color-grayLight;
+  background-color: var(--color-redDark);
+  color: var(--color-grayLight);
 }
 
 /* responsiveness */
 @media only screen and (max-device-width: 800px) {
-  @import 'responsive-800';
+  @import 'responsive-800.css';
 }
 @media only screen and (max-width: 800px) {
-  @import 'responsive-800';
+  @import 'responsive-800.css';
 }
