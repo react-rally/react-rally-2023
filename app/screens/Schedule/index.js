@@ -129,7 +129,9 @@ export default class extends React.Component {
 
     return (
       <div className="Schedule">
+        {/*
         <section className="highlight">Times are in <a href="https://www.thetimezoneconverter.com/" target="_blank">Mountain Time</a>.</section>
+        */}
 
         {schedule.length > 0 ? (
           <div>
