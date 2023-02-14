@@ -1,4 +1,5 @@
-/* Responsive styles for max-width 800px */
+@media only screen and (max-width: 800px) {
+
 body {
   font-size: var(--size-font-medium);
 }
@@ -14,194 +15,161 @@ h6 {
   padding-left: 0;
 }
 
-input[type='text'],
-input[type='email'] {
+input[type=text],
+input[type=email] {
   width: 223px;
 }
 
-.Header {
-  .Home__Header__Wrapper {
-    display: block;
-    position: relative;
-    padding: 25px;
-
-    h1 {
-      font-size: var(--size-font-xlarge);
-      margin-bottom: 10px;
-    }
-
-    h2 {
-      font-size: var(--size-font-large);
-    }
-    h1,
-    h2 {
-      margin-left: 60px;
-    }
-  }
-  .Home__Header__Wrapper .Home__Header__Logo {
-    position: absolute;
-    top: 60px;
-    left: 22px;
-    height: 50px;
-  }
-  .Home__Header__Content {
-    margin: 60px 0 0 0;
-    padding: 0;
-    border: 0 none;
-    width: auto;
-  }
-  .Home__Header__Buttons .Button {
-    padding: 12px;
-    margin-top: 15px;
-    font-size: var(--size-font-medium);
-  }
-
-  .Header__Nav {
-    padding: 0;
-    display: block;
-
-    section {
-      a,
-      ul,
-      .Icon,
-      .Button {
-        display: none;
-      }
-
-      #logo {
-        display: inline-block;
-        margin-left: 25px;
-      }
-    }
-
-    section:first-of-type {
-      height: 91px;
-
-      img {
-        width: 50px;
-        height: 50px;
-      }
-    }
-  }
-  &.Header__Home {
-    section:first-of-type {
-      height: 0;
-    }
-
-    &.Header--menuOpen {
-      background: var(--color-black);
-    }
-  }
-  &.Header--menuOpen {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1000;
-
-    #logo {
-      position: absolute;
-      top: -71px;
-      left: 0;
-    }
-
-    .Home__Header__Logo,
-    .Home__Header__Content {
-      display: none;
-    }
-
-    .Header__Nav {
-      section {
-        a,
-        ul,
-        .Icon,
-        .Button {
-          display: block;
-        }
-
-        a {
-          color: var(--color-red);
-        }
-
-        ul {
-          margin: 0;
-
-          li {
-            display: list-item;
-          }
-        }
-
-        a.active {
-          border: 0 none;
-          font-weight: normal;
-        }
-      }
-
-      .Home__Header__Buttons {
-        display: none;
-      }
-
-      .Header__Nav__Menu,
-      .Header__Nav__Social {
-        background-color: var(--color-white);
-      }
-
-      .Header__Nav__Menu {
-        position: absolute;
-        top: 91px + var(--banner-offset);
-        left: 0;
-        right: 0;
-        height: 394px;
-        padding-top: 91px;
-
-        ul {
-          border-top: 1px solid var(--color-grayLight);
-          margin: 0 25px;
-          padding: 10px 0;
-
-          li {
-            padding: 0;
-          }
-        }
-      }
-      .Header__Nav__Social {
-        position: absolute;
-        top: 485px;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        text-align: left;
-        padding: 0 15px;
-
-        .Icon {
-          display: inline-block;
-        }
-
-        .Button {
-          color: var(--color-white);
-          background-color: var(--color-red);
-          margin: 0;
-          text-align: center;
-          position: absolute;
-          top: -369px + var(--banner-offset);
-          left: 25px;
-        }
-      }
-    }
-    .Header__Nav__Button__Hamburger {
-      display: none;
-    }
-    .Header__Nav__Button__X {
-      display: inline-block;
-    }
-  }
-
-  .Header__Nav button.Header__Nav__Button {
-    display: inline-block;
-    z-index: 1000;
-    padding: 0 17px;
-  }
+.Header .Home__Header__Wrapper {
+  display: block;
+  position: relative;
+  padding: 25px;
+}
+.Header .Home__Header__Wrapper h1 {
+  font-size: var(--size-font-xlarge);
+  margin-bottom: 10px;
+}
+.Header .Home__Header__Wrapper h2 {
+  font-size: var(--size-font-large);
+}
+.Header .Home__Header__Wrapper h1,
+.Header .Home__Header__Wrapper h2 {
+  margin-left: 60px;
+}
+.Header .Home__Header__Wrapper .Home__Header__Logo {
+  position: absolute;
+  top: 32px;
+  left: 22px;
+  height: 50px;
+}
+.Header .Home__Header__Content {
+  margin: 60px 0 0 0;
+  padding: 0;
+  border: 0 none;
+  width: auto;
+}
+.Header .Home__Header__Buttons .Button {
+  padding: 12px;
+  margin-top: 15px;
+  font-size: var(--size-font-medium);
+}
+.Header .Header__Nav {
+  padding: 0;
+  display: block;
+}
+.Header .Header__Nav section a,
+.Header .Header__Nav section ul,
+.Header .Header__Nav section .Icon,
+.Header .Header__Nav section .Button {
+  display: none;
+}
+.Header .Header__Nav section #logo {
+  display: inline-block;
+  margin-left: 25px;
+}
+.Header .Header__Nav section:first-of-type {
+  height: 91px;
+}
+.Header .Header__Nav section:first-of-type img {
+  width: 50px;
+  height: 50px;
+}
+.Header.Header__Home section:first-of-type {
+  height: 0;
+}
+.Header.Header__Home.Header--menuOpen {
+  background: var(--color-black);
+}
+.Header.Header--menuOpen {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
+.Header.Header--menuOpen #logo {
+  position: absolute;
+  top: -71px;
+  left: 0;
+}
+.Header.Header--menuOpen .Home__Header__Logo,
+.Header.Header--menuOpen .Home__Header__Content {
+  display: none;
+}
+.Header.Header--menuOpen .Header__Nav section a,
+.Header.Header--menuOpen .Header__Nav section ul,
+.Header.Header--menuOpen .Header__Nav section .Icon,
+.Header.Header--menuOpen .Header__Nav section .Button {
+  display: block;
+}
+.Header.Header--menuOpen .Header__Nav section a {
+  color: var(--color-red);
+}
+.Header.Header--menuOpen .Header__Nav section ul {
+  margin: 0;
+}
+.Header.Header--menuOpen .Header__Nav section ul li {
+  display: list-item;
+}
+.Header.Header--menuOpen .Header__Nav section a.active {
+  border: 0 none;
+  font-weight: normal;
+}
+.Header.Header--menuOpen .Header__Nav .Home__Header__Buttons {
+  display: none;
+}
+.Header.Header--menuOpen .Header__Nav .Header__Nav__Menu,
+.Header.Header--menuOpen .Header__Nav .Header__Nav__Social {
+  background-color: var(--color-white);
+}
+.Header.Header--menuOpen .Header__Nav .Header__Nav__Menu {
+  position: absolute;
+  top: 91px;
+  left: 0;
+  right: 0;
+  height: 394px;
+  padding-top: 91px;
+}
+.Header.Header--menuOpen .Header__Nav .Header__Nav__Menu ul {
+  border-top: 1px solid var(--color-grayLight);
+  margin: 0 25px;
+  padding: 10px 0;
+}
+.Header.Header--menuOpen .Header__Nav .Header__Nav__Menu ul li {
+  padding: 0;
+}
+.Header.Header--menuOpen .Header__Nav .Header__Nav__Social {
+  position: absolute;
+  top: 485px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: left;
+  padding: 0 15px;
+}
+.Header.Header--menuOpen .Header__Nav .Header__Nav__Social .Icon {
+  display: inline-block;
+}
+.Header.Header--menuOpen .Header__Nav .Header__Nav__Social .Button {
+  color: var(--color-white);
+  background-color: var(--color-red);
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  top: -369px;
+  left: 25px;
+}
+.Header.Header--menuOpen .Header__Nav__Button__Hamburger {
+  display: none;
+}
+.Header.Header--menuOpen .Header__Nav__Button__X {
+  display: inline-block;
+}
+.Header .Header__Nav button.Header__Nav__Button {
+  display: inline-block;
+  z-index: 1000;
+  padding: 0 17px;
 }
 
 .Stream__Embedded {
@@ -211,43 +179,35 @@ input[type='email'] {
 
 .Content .Home__TicketCard {
   display: block;
-
-  h2 {
-    font-size: var(--size-font-xlarge);
-  }
+}
+.Content .Home__TicketCard h2 {
+  font-size: var(--size-font-xlarge);
 }
 
-.Content .Stream__Caption {
-  img {
-    width: 30px;
-  }
-  h2 {
-    vertical-align: middle;
-    line-height: 30px;
-  }
-  .Stream__Embedded {
-    width: 350px;
-    height: 200px;
-  }
+.Content .Stream__Caption img {
+  width: 30px;
+}
+.Content .Stream__Caption h2 {
+  vertical-align: middle;
+  line-height: 30px;
+}
+.Content .Stream__Caption .Stream__Embedded {
+  width: 350px;
+  height: 200px;
 }
 
-.Content .Venue {
-  .Venue__Details {
-    display: block;
-
-    .Venue__Details__Mapbox {
-      margin-right: 0;
-
-      button,
-      .Button {
-        margin-bottom: 15px;
-      }
-
-      img {
-        width: 300px;
-      }
-    }
-  }
+.Content .Venue .Venue__Details {
+  display: block;
+}
+.Content .Venue .Venue__Details .Venue__Details__Mapbox {
+  margin-right: 0;
+}
+.Content .Venue .Venue__Details .Venue__Details__Mapbox button,
+.Content .Venue .Venue__Details .Venue__Details__Mapbox .Button {
+  margin-bottom: 15px;
+}
+.Content .Venue .Venue__Details .Venue__Details__Mapbox img {
+  width: 300px;
 }
 
 .Home__Header .Countdown {
@@ -264,18 +224,17 @@ input[type='email'] {
   margin: 0;
   margin-bottom: 25px;
 }
+
 .Content section {
   padding: 0 0 25px 0;
-
-  &.highlight {
-    padding: 15px;
-    margin-bottom: 50px;
-
-    .Button,
-    button {
-      margin-bottom: 15px;
-    }
-  }
+}
+.Content section.highlight {
+  padding: 15px;
+  margin-bottom: 50px;
+}
+.Content section.highlight .Button,
+.Content section.highlight button {
+  margin-bottom: 15px;
 }
 
 .Content,
@@ -285,63 +244,56 @@ input[type='email'] {
 
 .Footer {
   height: 750px;
-
-  .Footer__Grid {
-    display: block;
-    position: relative;
-  }
-  .Footer__Tickets {
-    float: none;
-    width: 100%;
-  }
-  .Footer__Grid__Right {
-    position: absolute;
-    top: -15px;
-    left: 0;
-    right: 0;
-  }
-  .Footer__Grid__Left {
-    position: relative;
-    top: 200px;
-  }
-
-  .Newsletter {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto 130px;
-    grid-template-areas:
-      'header header'
-      'input button';
-
-    .Newsletter__Label {
-      margin: 0 0 12px;
-      grid-area: header;
-    }
-
-    > input[type='email'] {
-      grid-area: input;
-      width: 100%;
-    }
-
-    > button {
-      grid-area: button;
-      white-space: nowrap;
-    }
-  }
+}
+.Footer .Footer__Grid {
+  display: block;
+  position: relative;
+}
+.Footer .Footer__Tickets {
+  float: none;
+  width: 100%;
+}
+.Footer .Footer__Grid__Right {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  right: 0;
+}
+.Footer .Footer__Grid__Left {
+  position: relative;
+  top: 200px;
+}
+.Footer .Newsletter {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto 130px;
+  grid-template-areas: "header header" "input button";
+}
+.Footer .Newsletter .Newsletter__Label {
+  margin: 0 0 12px;
+  grid-area: header;
+}
+.Footer .Newsletter > input[type=email] {
+  grid-area: input;
+  width: 100%;
+}
+.Footer .Newsletter > button {
+  grid-area: button;
+  white-space: nowrap;
 }
 
 .Schedule__Session {
   display: block;
   position: relative;
   padding: 25px 0;
+}
+.Schedule__Session .Schedule__Session__Description h4 {
+  margin-right: 70px;
+}
+.Schedule__Session .Schedule__Session__Avatar {
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
 
-  .Schedule__Session__Description h4 {
-    margin-right: 70px;
-  }
-
-  .Schedule__Session__Avatar {
-    position: absolute;
-    top: 30px;
-    right: 0;
-  }
 }

@@ -1,5 +1,5 @@
-/* font colors */
 :root {
+  /* font colors */
   --color-primary: #232323;
   --color-white: #ffffff;
   --color-grayLightest: #f4f4f4;
@@ -27,7 +27,6 @@
   --size-font-medium: 18px;
   --size-font-small: 14px;
   --size-font-xsmall: 12px;
-  --banner-offset: 42px;
 }
 
 /* typography */
@@ -135,10 +134,9 @@ input[type='email'] {
   box-sizing: border-box;
 }
 
-#container.fullscreen {
-  .Header, .Footer {
-    display: none;
-  }
+#container.fullscreen .Header,
+#container.fullscreen .Footer {
+  display: none;
 }
 
 .col {
@@ -149,25 +147,25 @@ input[type='email'] {
   width: var(--width-column);
 }
 .col-2 {
-  width: var(--width-column * 2);
+  width: calc(var(--width-column) * 2);
 }
 .col-3 {
-  width: var(--width-column * 3);
+  width: calc(var(--width-column) * 3);
 }
 .col-4 {
-  width: var(--width-column * 4);
+  width: calc(var(--width-column) * 4);
 }
 .col-5 {
-  width: var(--width-column * 5);
+  width: calc(var(--width-column) * 5);
 }
 .col-6 {
-  width: var(--width-column * 6);
+  width: calc(var(--width-column) * 6);
 }
 .col-7 {
-  width: var(--width-column * 7);
+  width: calc(var(--width-column) * 7);
 }
 .col-8 {
-  width: var(--width-column * 8);
+  width: calc(var(--width-column) * 8);
 }
 
 /* classes */
@@ -551,7 +549,7 @@ input[type='email'] {
   color: var(--color-red);
   position: absolute;
   height: 57px;
-  top: 17px + var(--banner-offset);
+  top: 17px;
   right: 25px;
 }
 .Header__Nav section:last-of-type {
@@ -607,28 +605,28 @@ input[type='email'] {
   height: 4px;
   width: 23px;
   border-radius: 4px;
+}
 
-  &::before {
-    content: ' ';
-    display: block;
-    background-color: var(--color-red);
-    height: 4px;
-    width: 23px;
-    border-radius: 4px;
-    position: relative;
-    top: -7px;
-  }
+.Header__Nav__Button__Hamburger::before {
+  content: ' ';
+  display: block;
+  background-color: var(--color-red);
+  height: 4px;
+  width: 23px;
+  border-radius: 4px;
+  position: relative;
+  top: -7px;
+}
 
-  &::after {
-    content: ' ';
-    display: block;
-    background-color: var(--color-red);
-    height: 4px;
-    width: 23px;
-    border-radius: 4px;
-    position: relative;
-    top: 3px;
-  }
+.Header__Nav__Button__Hamburger::after {
+  content: ' ';
+  display: block;
+  background-color: var(--color-red);
+  height: 4px;
+  width: 23px;
+  border-radius: 4px;
+  position: relative;
+  top: 3px;
 }
 .Header__Nav__Button__X {
   display: none;
@@ -850,9 +848,9 @@ section.Footer__Tickets h2 {
 }
 
 /* responsiveness */
-@media only screen and (max-device-width: 800px) {
-  @import 'responsive-800.css';
-}
-@media only screen and (max-width: 800px) {
-  @import 'responsive-800.css';
-}
+/* @media only screen and (max-device-width: 800px) { */
+/*   @import 'responsive-800.css'; */
+/* } */
+/* @media only screen and (max-width: 800px) { */
+/*   @import 'responsive-800.css'; */
+/* } */

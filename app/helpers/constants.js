@@ -58,20 +58,21 @@ constants.Dates = {
 constants.FeatureSets = {};
 constants.FeatureSets.Sponsors = {
   features: [
-    { id: 0, name: 'Logo on conference website' },
-    { id: 1, name: 'Logo on slide between talks' },
-    { id: 2, name: 'Booth at conference' },
-    { id: 3, name: 'Sponsor an activity during a break' },
-    { id: 4, name: 'Sponsor lunch gift cards' },
-    { id: 5, name: 'Logo on stage' },
-    { id: 6, name: 'Logo on podium' },
-    { id: 7, name: 'Official sponsor of after party' },
-    { id: 8, name: 'Logo on lanyard (sponsor to supply lanyards)' },
+    { id: 0, name: 'Linked logo on conference website' },
+    { id: 1, name: 'Logo on sponsor slide between presentations' },
+    { id: 2, name: 'Table in Exhibit Area' },
+    { id: 3, name: 'Break Sponsor' },
+    { id: 4, name: 'Preferential booth placement' },
+    { id: 5, name: 'Breakfast Sponsor' },
+    { id: 6, name: 'Exclusive Lunch Sponsor' },
+    { id: 7, name: 'Logo Onstage and Podium' },
+    { id: 8, name: 'Official Party Sponsor' },
+    { id: 9, name: 'Option to provide lanyard with your company logo' }
   ],
   levels: [
     { name: 'Silver', price: 5000, quantity: 10, tickets: 1, features: [0, 1] },
     { name: 'Gold', price: 10000, quantity: 5, tickets: 2, features: [0, 1, 2] },
     { name: 'Platinum', price: 15000, quantity: 5, tickets: 4, features: [0, 1, 2, 3, 4, 5] },
-    { name: 'Premier', price: 25000, quantity: 1, tickets: 6, features: [0, 1, 2, 3, 4, 5, 6, 7, 8] },
+    { name: 'Premier', price: 25000, quantity: 1, tickets: 6, features: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] },
   ],
 };

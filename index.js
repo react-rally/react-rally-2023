@@ -12,6 +12,7 @@ import Stream from 'screens/Stream';
 import Venue from 'screens/Venue';
 import ga from 'helpers/googleAnalytics';
 import './assets/css/styles.css';
+import './assets/css/responsive-800.css';
 
 const NotFound = () => {
   return (
