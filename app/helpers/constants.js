@@ -22,7 +22,6 @@ constants.Links = {
   LIVE_STREAM_OVER: 'https://www.youtube.com/embed/T1XgFsitnQw',
   YOUTUBE_CHANNEL:
   'https://www.youtube.com/playlist?list=PLUD4kD-wL_zYSfU3tIYsb4WqfFQzO_EjQ',
-  // TODO Final Prospectus
   SPONSOR_PROSPECTUS: 'docs/sponsor.pdf',
   OPPORTUNITY_SCHOLARSHIP_FORM:
     'https://docs.google.com/forms/d/e/1FAIpQLSevXCteBpBysq8afjuHQuFL4sx3OUv3o2iIciQ6sMCfCk12uw/viewform',
