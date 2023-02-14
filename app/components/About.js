@@ -7,7 +7,7 @@ export default () => {
   return (
     <section className="highlight">
       <p>
-        {constants.Meta.CONFERENCE_NAME} is a one day, single track conference
+        {constants.Meta.CONFERENCE_NAME} is a two day, single track conference
         for developers of all backgrounds using React.js, React Native, and
         related tools. Speakers will cover topics like React Native, state
         management, hooks, universal JavaScript, and more. Whether you're a
