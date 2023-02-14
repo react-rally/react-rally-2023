@@ -9,7 +9,7 @@ constants.Meta = {
 constants.Links = {
   CODE_OF_CONDUCT: 'http://confcodeofconduct.com/',
   CODE_OF_CONDUCT_FORM: 'https://docs.google.com/forms/d/e/1FAIpQLScghazbFL90gtVbWjlE2BxwXGuV-S1IIXGyXqeU9lyLAA7NmQ/viewform',
-  EMAIL_ORGANIZERS: 'team@reactrally.com',
+  EMAIL_ORGANIZERS: 'info@reactrally.com',
   TICKET_SALES: 'https://ti.to/react-rally/react-rally-2023',
   PROPOSAL_FORM: 'https://sessionize.com/react-rally-2023',
   HOTEL_RESERVATION:
