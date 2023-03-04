@@ -14,7 +14,7 @@ export default () => {
       <section>
         <h2>Attendee Experience</h2>
         <p>
-          As an attendee of {constants.Meta.CONFERENCE_NAME} you will enjoy two full days of talks where you will learn and keep your React knowledge current. You will also have built-in downtime throughout the day so you can discuss what you're learning with other developers, spend time catching up with old friends, or find opportunities to meet new friends. You will be provided with catered breakfast, and you will receive a gift card for lunch so that you can go out and explore Salt Lake City and enjoy some of the local fare. At the end of the day you can unwind and enjoy karaoke, dessert, board games, live music, or lawn games at the conference after parties held each evening.
+          Are you a developer looking to stay ahead of the game in the ever-evolving world of React and web tech? Then look no further than {constants.Meta.CONFERENCE_NAME}! Our two-day conference is designed for developers of all backgrounds, from seasoned professionals to those just starting out. With a single track program, you'll be immersed in a variety of exciting presentations that cover a range of topics, including state management, hooks, accessibility, performance, JavaScript, native applications, career growth, and more. Our inclusive conference is a great place to network, learn, and share experiences with like-minded individuals. Don't miss out on this opportunity to take your skills to the next level and be a part of the React community's ongoing evolution. Join us at {constants.Meta.CONFERENCE_NAME}!
         </p>
       </section>
     

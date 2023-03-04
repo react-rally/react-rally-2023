@@ -539,8 +539,8 @@ input[type='email'] {
   display: none;
 }
 .Header__Nav {
-  display: grid;
-  grid-template-columns: 800px auto;
+  align-items: center;
+  display: flex;
   padding: 25px;
   padding-bottom: 15px;
 }
@@ -581,6 +581,10 @@ input[type='email'] {
 .Header__Nav li a.active {
   border-color: var(--color-white);
   font-weight: bold;
+}
+
+.Header__Nav__Social {
+  flex-grow: 1;
 }
 
 .Header__Nav section:last-of-type .Button {
@@ -782,6 +786,20 @@ section.Footer__Tickets h2 {
 .Countdown__Timer {
   color: var(--color-white);
   font-family: 'Source Code Pro', monospace;
+}
+
+/* -- Workshop -- */
+.Workshop__Sessions {
+  display: flex;
+  gap: 25px;
+}
+.Workshop__Sessions__Item {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0;
+}
+.Workshop__Sessions__Item .Person {
+  align-self: center;
 }
 
 /* -- StyleGuide -- */

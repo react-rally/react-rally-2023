@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useMemo } from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
 import { Link } from 'react-router';
@@ -112,6 +112,18 @@ const HomeHeader = () => {
 const Navigation = ({ onMenuClick = () => {} }) => {
   const { constants } = useAppContext();
 
+  const NavLink = useMemo(() => ({ children, to }) => {
+    return (
+      <Link
+        activeClassName="active"
+        to={to}
+        onClick={() => onMenuClick(false)}
+      >
+        {children}
+      </Link>
+    )
+  }, [onMenuClick]);
+
   return (
     <div className="Header__Nav">
       <section className="Header__Nav__Menu">
@@ -129,60 +141,35 @@ const Navigation = ({ onMenuClick = () => {} }) => {
         </Link>
         <ul>
           <li>
-            <Link
-              activeClassName="active"
-              to="/speakers"
-              onClick={() => onMenuClick(false)}>
-              Speakers
-            </Link>
+            <NavLink to="/speakers">Speakers</NavLink>
           </li>
           <li>
-            <Link
-              activeClassName="active"
-              to="/schedule"
-              onClick={() => onMenuClick(false)}>
-              Schedule
-            </Link>
+            <NavLink to="/schedule">Schedule</NavLink>
           </li>
           <li>
-            <Link
-              activeClassName="active"
-              to="/venue"
-              onClick={() => onMenuClick(false)}>
-              Venue
-            </Link>
+            <NavLink to="/workshop">Workshop</NavLink>
           </li>
           <li>
-            <Link
-              activeClassName="active"
-              to="/sponsors"
-              onClick={() => onMenuClick(false)}>
-              Sponsors
-            </Link>
+            <NavLink to="/venue">Venue</NavLink>
           </li>
           <li>
-            <Link
-              activeClassName="active"
-              to="/conduct"
-              onClick={() => onMenuClick(false)}>
-              Conduct
-            </Link>
+            <NavLink to="/sponsors">Sponsors</NavLink>
           </li>
           <li>
-            <Link
-              activeClassName="active"
-              to="/about"
-              onClick={() => onMenuClick(false)}>
-              About
-            </Link>
+            <NavLink to="/conduct">Conduct</NavLink>
+          </li>
+          <li>
+            <NavLink to="/about">About</NavLink>
           </li>
         </ul>
       </section>
       <section className="Header__Nav__Social">
+        {/*
         <Icon href="https://twitter.com/ReactRally" type="twitter" />
         <Icon href="https://github.com/react-rally" type="github" />
         <Icon href="https://instagram.com/reactrally" type="instagram" />
         <Icon href="https://www.youtube.com/channel/UCXBhQ05nu3L1abBUGeQ0ahw" type="youtube" />
+        */}
         <Button href={constants.Links.TICKET_SALES} className="medium">
           Tickets
         </Button>

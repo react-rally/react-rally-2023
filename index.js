@@ -10,9 +10,10 @@ import Speakers from 'screens/Speakers';
 import Sponsors from 'screens/Sponsors';
 import Stream from 'screens/Stream';
 import Venue from 'screens/Venue';
+import Workshop from 'screens/Workshop';
 import ga from 'helpers/googleAnalytics';
 import './assets/css/styles.css';
-import './assets/css/responsive-800.css';
+import './assets/css/responsive.css';
 
 const NotFound = () => {
   return (
@@ -63,6 +64,7 @@ ReactDOM.render(
       <Route path="/sponsors" component={Sponsors} />
       <Route path="/stream" component={Stream} />
       <Route path="/venue" component={Venue} />
+      <Route path="/workshop" component={Workshop} />
       <Route path="*" component={NotFound} />
     </Route>
   </Router>,
