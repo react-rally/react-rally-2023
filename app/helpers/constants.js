@@ -13,7 +13,7 @@ constants.Links = {
   TICKET_SALES: 'https://ti.to/react-rally/react-rally-2023',
   PROPOSAL_FORM: 'https://sessionize.com/react-rally-2023',
   HOTEL_RESERVATION:
-    'https://www.marriott.com/meetings/preferred-payment-method.mi?CustEmAdd=shyloh%40zeroslopeevents.com&OptyId=M-P10SJ9N&Event=React%20Rally%202023&ADate=15-AUG-23&DDate=18-AUG-23&SfaEmAdd=sylvia.lebron%40saltlakemarriottdowntown.com&PropCode=SLCUT&QuoteId=M-P10SJ9N',
+    'https://www.marriott.com/event-reservations/reservation-link.mi?id=1675272098037&key=GRP&app=resvlink',
   VENUE_DIRECTIONS: 'https://goo.gl/maps/26iT97pXY2pZztis9',
   PARTY_DIRECTIONS: 'https://goo.gl/maps/AeYKJrkAFZG2',
   LIVE_STREAM_PLACEHOLDER: 'https://www.youtube.com/embed/5NNOrp_83RU',
