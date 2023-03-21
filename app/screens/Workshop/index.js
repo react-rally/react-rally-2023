@@ -22,6 +22,14 @@ export default () => {
             A <strong>two day</strong> workshop held <strong>August 15-16, 2023</strong> being taught by <strong>Michael Chan</strong>.
           </p>
 
+          <p>
+            React can be overwhelming, with countless concepts and a rich history to navigate. That's why we've crafted this beginner-friendly, two-day workshop to help you carve a path through the React ecosystem. Our seasoned instructor, chantastic, will be your guide, offering expert insight and support. Together, you'll explore JSX WTF’s, styling approaches, composition patterns, TypeScript fundamentals, powerful code organization, editor superpowers, and so much more. By the end of the workshop, you'll possess the skills and confidence to build React apps independently or collaboratively.
+          </p>
+
+          <p>
+            As a React Rally speaker and MC, chantastic knows precisely what you need to make the most of the conference. Let us clear the path to success, ensuring your React learning experience is both enjoyable and rewarding!
+          </p>
+
           <Person
             name="Michael Chan"
             avatar="https://avatars.githubusercontent.com/u/658360?v=4"
