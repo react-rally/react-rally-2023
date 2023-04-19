@@ -1,3 +1,23 @@
 {
-  
+ "twerske": {
+    "name": "Emma Twersky",
+    "title": "Senior Developer Relations at Google",
+    "twitter": "twerske",
+    "featured": true,
+    "avatar": "assets/dist/img/speakers/twerske.jpg"
+  },
+  "sxywu": {
+    "name": "Shirley Wu",
+    "title": "½ code ⌨️ ½ art 🎨",
+    "twitter": "sxywu",
+    "featured": true,
+    "avatar": "assets/dist/img/speakers/sxywu.jpg"
+  },
+  "wisecobbler": {
+    "name": "Sophia Shoemaker 👠",
+    "title": "Software Engineer at Box",
+    "twitter": "wisecobbler",
+    "featured": true,
+    "avatar": "assets/dist/img/speakers/wisecobbler.jpg"
+  }
 }
