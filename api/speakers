@@ -19,5 +19,123 @@
     "twitter": "wisecobbler",
     "featured": true,
     "avatar": "assets/dist/img/speakers/wisecobbler.jpg"
+  },
+  "indigitalcolor": {
+    "name": "Monica Powell",
+    "title": "Senior Software Engineer at Newsela",
+    "twitter": "indigitalcolor",
+    "featured": true,
+    "avatar": "assets/dist/img/speakers/indigitalcolor.jpg"
+  },
+  "TejasKumar_": {
+    "name": "Tejas Kumar",
+    "title": "",
+    "twitter": "TejasKumar_",
+    "github": "tejasq",
+    "featured": true,
+    "avatar": "assets/dist/img/speakers/TejasKumar_.jpg"
+  },
+  "davidkpiano": {
+    "name": "David Khourshid",
+    "title": "Founder at Stately",
+    "twitter": "davidkpiano",
+    "github": "davidkpiano",
+    "avatar": "assets/dist/img/speakers/davidkpiano.jpg"
+  },
+  "howdevelop": {
+    "name": "Shivay Lamba",
+    "title": "Developer Relations at Meilisearch",
+    "twitter": "howdevelop",
+    "github": "shivaylamba",
+    "avatar": "assets/dist/img/speakers/howdevelop.jpg"
+  },
+  "InterwebAlchemy": {
+    "name": "Eric Allen",
+    "title": "Developer Advocate at Datadog",
+    "twitter": "InterwebAlchemy",
+    "github": "ericrallen",
+    "avatar": "assets/dist/img/speakers/InterwebAlchemy.jpg"
+  },
+  "alexadark": {
+    "name": "Alexa Spalato",
+    "title": "Developer Relation Engineer at Storyblok",
+    "twitter": "alexadark",
+    "github": "alexadark",
+    "avatar": "assets/dist/img/speakers/alexadark.jpg"
+  },
+  "alessbell": {
+    "name": "Alessia Bellisario",
+    "title": "Staff Software Engineer at Apollo GraphQL",
+    "twitter": "alessbell",
+    "github": "alessbell",
+    "avatar": "assets/dist/img/speakers/alessbell.jpg"
+  },
+  "jerelmiller": {
+    "name": "Jerel Miller",
+    "title": "Principal Software Engineer at Apollo GraphQL",
+    "twitter": "jerelmiller",
+    "github": "",
+    "avatar": "assets/dist/img/speakers/jerelmiller.jpg"
+  },
+  "acemarke": {
+    "name": "Mark Erikson",
+    "title": "Senior Front-End Engineer at Replay.io",
+    "twitter": "acemarke",
+    "github": "markerikson",
+    "avatar": "assets/dist/img/speakers/acemarke.jpg"
+  },
+  "codyzus": {
+    "name": "Cody Zuschlag",
+    "title": "Staff Developer Relations Engineer at NearForm",
+    "twitter": "codyzus",
+    "github": "codyzu",
+    "avatar": "assets/dist/img/speakers/codyzus.jpg"
+  },
+  "sharonsteed": {
+    "name": "Sharon Steed",
+    "title": "",
+    "twitter": "sharonsteed",
+    "avatar": "assets/dist/img/speakers/sharonsteed.jpg"
+  },
+  "bholmesdev": {
+    "name": "Ben Holmes",
+    "title": "Core maintainer at Astro",
+    "twitter": "bholmesdev",
+    "avatar": "assets/dist/img/speakers/bholmesdev.jpg"
+  },
+  "housecor": {
+    "name": "Cory House",
+    "title": "Author / Consultant",
+    "twitter": "housecor",
+    "github": "coryhouse",
+    "avatar": "assets/dist/img/speakers/housecor.jpg"
+  },
+  "ythecombinator": {
+    "name": "Matheus Albuquerque",
+    "title": "Senior Software Engineer,",
+    "twitter": "ythecombinator",
+    "github": "ythecombinator",
+    "avatar": "assets/dist/img/speakers/ythecombinator.png"
+  },
+  "kulkarniankita9": {
+    "name": "Ankita Kulkarni",
+    "title": "Educator",
+    "twitter": "kulkarniankita9",
+    "github": "kulkarniankita",
+    "avatar": "assets/dist/img/speakers/kulkarniankita9.png"
+  },
+  "bot_Anirudh": {
+    "name": "Anirudh Sharma",
+    "title": "Senior at Delhi Technological University",
+    "twitter": "bot_Anirudh",
+    "github": "",
+    "avatar": "assets/dist/img/speakers/bot_Anirudh.jpg"
+  },
+  "kentcdodds": {
+    "name": "Kent C. Dodds",
+    "title": "Software Developer and Educator",
+    "twitter": "kentcdodds",
+    "github": "kentcdodds",
+    "avatar": "assets/dist/img/speakers/kentcdodds.jpg"
   }
 }
