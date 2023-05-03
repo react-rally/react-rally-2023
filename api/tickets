@@ -3,13 +3,13 @@
     "name": "Early Bird - Round One",
     "price": 400,
     "description": "Early bird tickets for React Rally! 20% off because we love early bird ticket buyers.",
-    "soldOut": false
+    "soldOut": true
   },
   {
     "name": "Early Bird - Round Two",
     "price": 450,
     "description": "One last chance to grab a React Rally ticket at a discounted price.",
-    "soldOut": false
+    "soldOut": true
   },
   {
     "name": "Standard",
@@ -18,21 +18,15 @@
     "soldOut": false
   },
   {
-    "name": "React Workshop Early Bird - Round One",
-    "price": 700,
-    "description": "Join Michael Chan for two-days of training with his React workshop August 15-16.",
-    "soldOut": false
-  },
-  {
-    "name": "React Workshop Early Bird - Round Two",
-    "price": 800,
-    "description": "Join Michael Chan for two-days of training with his React workshop August 15-16.",
-    "soldOut": false
-  },
-  {
-    "name": "React Workshop",
+    "name": "Intro to React Workshop",
     "price": 900,
     "description": "Join Michael Chan for two-days of training with his React workshop August 15-16.",
+    "soldOut": false
+  },
+  {
+    "name": "Web App Fundamentals - Remix Workshop",
+    "price": 500,
+    "description": "Join Kent C. Dodds for a full day of training with his Remix workshop August 16.",
     "soldOut": false
   },
   {
