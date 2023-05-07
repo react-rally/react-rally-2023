@@ -1,5 +1,19 @@
 {
+  "Premier": [],
   "Platinum": [],
-  "Gold": [],
+  "Gold": [
+    {
+      "name": "Ionic",
+      "url": "https://ionicframework.com/?utm_campaign=React%20Rally%202023&utm_source=React%20Rally%202023&utm_medium=referral",
+      "image": "assets/dist/img/sponsors/ionic.png",
+      "style": { "width": "175px" }
+    },
+    {
+      "name": "Nx",
+      "url": "https://nx.app",
+      "image": "assets/dist/img/sponsors/nx.png",
+      "style": { "width": "175px" }
+    }
+  ],
   "Silver": []
 }
