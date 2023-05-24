@@ -159,6 +159,7 @@ input[type=email] {
   position: absolute;
   top: -410px;
   left: 25px;
+  right: 25px;
 }
 .Header.Header--menuOpen .Header__Nav__Button__Hamburger {
   display: none;
