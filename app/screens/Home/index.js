@@ -38,29 +38,31 @@ export default () => {
         </section>
       )}
 
-      <section>
-        <h2>Upcoming Dates</h2>
-        <UpcomingDate
-          timestamp={constants.Dates.CFP_OPEN}
-          description="Call for Proposals opens."
-        />
-        <UpcomingDate
-          timestamp={constants.Dates.CFP_CLOSE}
-          description="Call for Proposals closes."
-        />
-        <UpcomingDate
-          timestamp={constants.Dates.TICKET_RELEASE}
-          description="Early Bird Tickets (round one) go on sale."
-        />
-        <UpcomingDate
-          timestamp={moment.utc(constants.Dates.TICKET_RELEASE).add(7, 'days')}
-          description="Early Bird Tickets (round two) go on sale."
-        />
-        <UpcomingDate
-          timestamp={moment.utc(constants.Dates.TICKET_RELEASE).add(14, 'days')}
-          description="Standard tickets go on sale."
-        />
-      </section>
+      {false && (
+        <section>
+          <h2>Upcoming Dates</h2>
+          <UpcomingDate
+            timestamp={constants.Dates.CFP_OPEN}
+            description="Call for Proposals opens."
+          />
+          <UpcomingDate
+            timestamp={constants.Dates.CFP_CLOSE}
+            description="Call for Proposals closes."
+          />
+          <UpcomingDate
+            timestamp={constants.Dates.TICKET_RELEASE}
+            description="Early Bird Tickets (round one) go on sale."
+          />
+          <UpcomingDate
+            timestamp={moment.utc(constants.Dates.TICKET_RELEASE).add(7, 'days')}
+            description="Early Bird Tickets (round two) go on sale."
+          />
+          <UpcomingDate
+            timestamp={moment.utc(constants.Dates.TICKET_RELEASE).add(14, 'days')}
+            description="Standard tickets go on sale."
+          />
+        </section>
+      )}
 
       {tickets.length > 0 && moment.utc().isAfter(constants.Dates.TICKET_RELEASE) && (
         <section>
