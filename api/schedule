@@ -1,4 +1,175 @@
 {
-  "dayOne": [],
-  "dayTwo": []
+  "dayOne": [
+    {
+      "time": "7:00 am",
+      "title": "Registration"
+    },
+    {
+      "time": "7:30 am",
+      "title": "Breakfast"
+    },
+    {
+      "time": "9:00 am",
+      "title": "TBD",
+      "speaker": "twerske",
+      "description": ""
+    },
+    {
+      "time": "9:30 am",
+      "title": "TBD",
+      "speaker": "indigitalcolor",
+      "description": ""
+    },
+    {
+      "time": "10:00 am",
+      "title": "Break"
+    },
+    {
+      "time": "10:30 am",
+      "title": "The Web's Next Transition",
+      "speaker": "kentcdodds",
+      "description": "The web. What started as a document sharing platform has evolved into an application platform. The web has been through a number of transformations over the years. From static HTML files to dynamic server-generated HTML responses. Then to REST or GraphQL APIs consumed by JavaScript-heavy clients with the Jamstack. The web is entering a completely new transformation. Modern infrastructure and techniques have changed the rules of what it means to make an excellent user experience. In this new future, what's old is new and what's modern is lacking."
+    },
+    {
+      "time": "11:00 am",
+      "title": "Server-side rendering using WebAssembly",
+      "speaker": "howdevelop",
+      "description": "Constantly thinking about how to best achieve Server-side rendering (SSR) for your application? SSR enables to render client side SPAs on servers and sending a fully rendered page back to the client. Is there a way to achieve server side rendering that is also secure and takes up less space? Enter WebAssembly!\n\nThis talk shares how to achieve Server-side rendering using WebAssembly and WASMEdge which is a WebAssembly Runtime. The talk also covers the benefits of using WebAssembly to achieve Server Side Rendering. The talk will also cover a demo of how to launch a React application using the WasmEdge runtime."
+    },
+    {
+      "time": "11:30 am",
+      "title": "TBD",
+      "speaker": "wisecobbler",
+      "description": ""
+    },
+    {
+      "time": "12:00 pm",
+      "title": "Lunch"
+    },
+    {
+      "time": "2:00 pm",
+      "title": "There are no soft skills: turning empathy into action for better performance",
+      "speaker": "sharonsteed",
+      "description": "Communicating confidently and effectively; working collaboratively; solving complex problems; time management - all of these are considered soft skills, and none of them come naturally. Excelling at any of these \"soft\" skills could mean taking courses to learn more about the tools, asking a mentor to guide you when you feel overwhelmed, and engaging in a ton of trial and error when it matters the most.\n\nSoft skills are competencies. We must consistently and actively work at developing these abilities so we can be successful teammates, managers, leaders and coworkers. And there's one skill above all that can get you there faster: empathy."
+    },
+    {
+      "time": "2:30 pm",
+      "title": "Creating Reusable Components…That Are Actually Reusable",
+      "speaker": "housecor",
+      "description": "Creating a React component is easy. However, creating a truly reusable component is hard. So, in this session I'll share lessons learned from scaling a large reusable component library. We'll explore the key practices and patterns necessary for creating components that are robust, broadly reusable, and easy to understand."
+    },
+    {
+      "time": "3:00 pm",
+      "title": "Break"
+    },
+    {
+      "time": "3:30 pm",
+      "title": "Unlocking the Mystery of React's Re-Rendering",
+      "speaker": "kulkarniankita9",
+      "description": "Your users will not care what tech you used but how fast your app loads. Have you used a hot new stack that everyone loves but still doesn’t know how to make it performant? Well, it’s because we think about performance as an afterthought after it becomes a bottleneck and when our infra gets costly, ouch!\n\nBut there is a way to solve this, introducing Core React. We won’t be introducing new tools but going back to how we need to tell React what the DOM should look like. In this talk, we will finally understand why useCallback and useMemo are used, why lighthouse doesn’t represent performance, why React re-renders? and lastly how to profile it with React Devtools."
+    },
+    {
+      "time": "4:00 pm",
+      "title": "Mastering the JavaScript Engine: Get Hold of the Web",
+      "speaker": "bot_Anirudh",
+      "description": "With a whole existing and upcoming ecosystem of libraries and frameworks around JavaScript, the need for thorough understanding of code execution on the web becomes more relevant. This knowledge also helps you to better understand and distinguish technologies like WebAssembly from JavaScript.\n\nAttend this talk to get an in-depth overview of the JavaScript engine and learn how it can help you as a developer to write more optimized JavaScript code. You will learn how exactly your high-level code is converted to bytecode and then to the optimized machine code with the magic of the V8 engine."
+    },
+    {
+      "time": "4:30 pm",
+      "title": "Imagined Dragons: Building an Imagination-Powered Music Recommendation Platform",
+      "speaker": "InterwebAlchemy",
+      "description": "The Artificial Intelligence landscape is a wild, rapidly developing frontier with some unique challenges. The most sophisticated and capable models are controlled by a handful of companies, gated behind waitlists, and the costs of training and running your own large language models (LLMs) are prohibitive.\n\nBut this doesn’t mean we can’t have a little fun with them right now and inspire the rest of the community to explore their capabilities. We’re already starting to see how more tools, and more education, lead to more innovation and a future where open, cheap LLMs will be available to everyone.\n\nIn this talk, we’ll walk through the process of harnessing an LLM’s imagination and empowering it with knowledge and tools from the real world to perform one of the most delicate human tasks: creating mixtapes.\n\nWe’ll discover the subtle nuances of Prompt Engineering, learn how to manage and manipulate a chatbot’s memory, dig into the complexities of ChatGPT's response time and Vercel's Edge Functions with Next.js, and discuss some open source tools that we can leverage with existing and future LLMs as we explore this new frontier."
+    },
+    {
+      "time": "6:00 pm",
+      "title": "Dinner",
+      "description": "Meet up with conference attendees sharing similar taste in cuisine at pre-arranged restaurants for dinner (self pay)."
+    },
+    {
+      "time": "8:00 pm",
+      "title": "Party",
+      "description": "Meet at Ballroom for milkshakes, board games and karaoke."
+    }
+  ],
+  "dayTwo": [
+    {
+      "time": "7:00 am",
+      "title": "Registration"
+    },
+    {
+      "time": "7:30 am",
+      "title": "Breakfast"
+    },
+    {
+      "time": "9:00 am",
+      "title": "TBD",
+      "speaker": "sxywu",
+      "description": ""
+    },
+    {
+      "time": "9:30 am",
+      "title": "Why everybody needs to use a framework",
+      "speaker": "TejasKumar_",
+      "description": "The prevalent advice on how to use React today is to use a framework: either to start with one or to incrementally adopt one. This talk will explore why, and how to go about this with live code examples."
+    },
+    {
+      "time": "10:00 am",
+      "title": "Break"
+    },
+    {
+      "time": "10:30 am",
+      "title": "Opt-in design - the new era of React frameworks",
+      "speaker": "bholmesdev",
+      "description": "Picking up a new technology, developers stick with defaults. It's a fact that every tool from JQuery to NextJS has needed to face. At their worst, defaults ship hundreds of wasted JS kilobytes for routing, state, and other baggage developers may never use. But at their best, defaults give us a simple baseline to start from, with a clear path to add the exact set of features our project demands. This is the magic of opt-in design.\n\nLet's see how smart defaults guide modern frontend tools from Astro to React Server Components, and why this new era reshapes your workflow, and website performance metrics, for the better."
+    },
+    {
+      "time": "11:00 am",
+      "title": "Suspense + GraphQL = Superpowers",
+      "speaker": ["alessbell", "jerelmiller"],
+      "description": "React has been empowering developers to build great apps since it was open sourced in 2013. With the introduction of Suspense, developers now have an ergonomic way to orchestrate loading states to improve on the status quo. In this talk, the Apollo Client team will show you how we built a non-trivial application using Apollo Client’s new Suspense features, GraphQL features like the @defer directive, and how to combine them to build great user experiences in your own apps."
+    },
+    {
+      "time": "11:30 am",
+      "title": "Design Tokens, Systems, and a Component’s Journey From Design to Deployment",
+      "speaker": "codyzus",
+      "description": "Design systems reduce design inconsistencies, eliminate process bottlenecks, and allow teams and organizations to scale. A design system of systems is a platform that allows an organization to provide the same advantages across multiple platforms, channels, and even brands. Too often it can feel like designers and developers work in different worlds and speak different languages. These challenges are compounded multiple times when working with multiple user-facing interfaces across platforms, channels, or brands. We built a design system of systems using JS allowing all teams to stay on brand on all platforms and projects. This included a cross-brand and cross-platform components library for teams delivering digital experiences. At the core of the systems of systems is a common language, design tokens, that breaks down the barriers between designers and developers."
+    },
+    {
+      "time": "12:00 pm",
+      "title": "Lunch"
+    },
+    {
+      "time": "2:00 pm",
+      "title": "A Guide to React Rendering Behavior",
+      "speaker": "acemarke",
+      "description": "React is a library for \"rendering\" UI from components, but many users find themselves confused about how React rendering actually works. What do terms like \"rendering\", \"reconciliation\", \"Fibers\", and \"committing\" actually mean? When do renders happen? How does Context affect rendering, and how do libraries like Redux cause updates?\n\nIn this talk, we'll clear up the confusion and provide a solid foundation for understanding when, why, and how React renders."
+    },
+    {
+      "time": "2:30 pm",
+      "title": "It's 2023 and I Can Finally Talk About Atomic CSS",
+      "speaker": "ythecombinator",
+      "description": "Libraries like Tailwind became quite popular and their utility-first—aka atomic classes—approach was an interesting paradigm shift in CSS. Many developers love it, and it's understandable why.\n\nHowever, we tend to forget that the core of this technique isn't new. Way before Bootstrap we all had our own small CSS snippets copied from project to project with similar classes.\n\nHowever, there are good reasons why we stopped doing that for a while and we should discuss them before using them everywhere.\n\nIn this session, we'll discuss the evolution of scalable CSS, walk through the limitations and drawbacks of Atomic CSS, and also figure out where this concept can come in handy."
+    },
+    {
+      "time": "3:00 pm",
+      "title": "Break"
+    },
+    {
+      "time": "3:30 pm",
+      "title": "Remix: Embracing Web Standards to Redefine Modern Web Development",
+      "speaker": "alexadark",
+      "description": "Discover the power of Remix, a groundbreaking full-stack framework that embraces web standards to redefine modern web development.\n\nAs developers grapple with complex tools and frameworks, creating performant and maintainable applications becomes increasingly challenging.\n\nWhat if there's a solution that leverages core web principles to streamline development? Enter Remix\n\nIn this talk, learn how Remix harnesses web standards, such as URLs, Fetch API, HTML, and HTTP caching, to elevate developer and user experiences, ultimately empowering you to become a better developer!"
+    },
+    {
+      "time": "4:00 pm",
+      "title": "useWat",
+      "speaker": "davidkpiano",
+      "description": "React has quite the history. From React.createComponent to server components, React has evolved to be a mainstay in web development. But let's be honest, there's many un-use-ual things about React. In this talk, we'll revisit React's lifecycle from being a sprinkle of interactivity to wanting to be its own language, with plenty of puns, nostalgia, and a peek into the future of our favorite not-a-framework."
+    },
+    {
+      "time": "6:30 pm",
+      "title": "Party",
+      "description": "Meet up for dinner, dessert, live music, and lawn games."
+    }
+  ]
 }

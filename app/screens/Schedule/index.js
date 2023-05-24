@@ -46,6 +46,30 @@ function isNowWithinTimeRange(date, startTime, endTime) {
   return moment.utc().isBetween(start, end);
 }
 
+const SpeakerAvatar = ({ speakers }) => (
+  <div style={{ position: "relative", left: 20 * (speakers.length - 1), whiteSpace: "nowrap" }}>
+    {speakers.map(({ avatar }, i) => (
+      <Avatar
+        key={avatar}
+        url={avatar}
+        size={55}
+        style={{
+          position: "relative",
+          left: -20 * i
+        }}
+      />
+    ))}
+  </div>
+);
+
+const getSessionSpeakers = (speaker) => {
+  if (!speaker) return null;
+
+  const speakers = Array.isArray(speaker) ? speaker : [speaker];
+
+  return speakers.map((s) => SpeakerData[s]);
+}
+
 export default class extends React.Component {
   constructor(props) {
     super(props);
@@ -137,9 +161,8 @@ export default class extends React.Component {
           <div>
             {this.renderMenu()}
             {schedule.map((session, i) => {
-              let speaker = session.speaker
-                ? SpeakerData[session.speaker]
-                : null;
+              const sessionSpeakers = getSessionSpeakers(session.speaker);
+
               let sessionEnd = schedule[i + 1] ? schedule[i + 1].time : null;
               let isActive =
                 moment.utc().isSame(selectedDay, 'day') &&
@@ -149,16 +172,16 @@ export default class extends React.Component {
                 <div
                   className={cx('Schedule__Session', {
                     'Schedule__Session--active': isActive,
-                    'Schedule__Session--speaker': speaker,
+                    'Schedule__Session--speaker': sessionSpeakers,
                     'Schedule__Session--description': session.description,
                   })}
                   key={i}>
                   <time>{session.time}</time>
                   <div className="Schedule__Session__Description">
-                    {speaker ? (
+                    {sessionSpeakers ? (
                       <div>
                         <h4>{session.title}</h4>
-                        <em>{speaker.name}</em>
+                        <em>{sessionSpeakers.map(({ name }) => name).join(", ")}</em>
                         <p
                           dangerouslySetInnerHTML={{
                             __html: (session.description || '').replace(
@@ -176,12 +199,16 @@ export default class extends React.Component {
                     )}
                   </div>
                   <div className="Schedule__Session__Avatar">
-                    {speaker && <Avatar url={speaker.avatar} size={55} />}
+                    {sessionSpeakers && <SpeakerAvatar speakers={sessionSpeakers} />}
                   </div>
                 </div>
               );
             })}
             {this.renderMenu()}
+
+            <p>
+              Please note that this schedule is tentative and subject to change.
+            </p>
           </div>
         ) : (
           <div className="align-center">
