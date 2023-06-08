@@ -220,9 +220,14 @@ input[type='email'] {
 .Home__Header__Wrapper {
   color: var(--color-black);
   padding: 50px;
-  padding-bottom: 100px;
+}
+.Home__Header__Wrapper__Content {
   display: grid;
   grid-template-columns: 100px auto;
+  width: 670px;
+  background: rgba(0, 0, 0, .33);
+  padding: 25px 10px;
+  color: var(--color-white);
 }
 .Home__Header__Wrapper h1,
 .Home__Header__Wrapper h2 {
@@ -258,7 +263,7 @@ input[type='email'] {
   transform: translate(-25%, 150%) rotate(270deg);
 }
 .Home__Header__Content {
-  border-left: 4px solid var(--color-black);
+  border-left: 4px solid var(--color-white);
   padding-left: 25px;
   margin-left: 25px;
   width: 525px;
@@ -267,6 +272,7 @@ input[type='email'] {
 .Home__Header__Content h1,
 .Home__Header__Content h2 {
   border: 0 none;
+  color: var(--color-white);
 }
 .Home__Header .Button {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -303,6 +309,7 @@ input[type='email'] {
   padding: 25px;
   margin: 10px 0;
   display: grid;
+  gap: 10px;
   grid-template-columns: auto 200px;
 }
 .Home__TicketCard h2,
@@ -521,8 +528,8 @@ input[type='email'] {
   background-color: var(--color-teal);
 }
 .Header__Home {
-  background: url(../dist/img/Hero.png) no-repeat center 0 fixed;
-  background-size: cover;
+  background: url(../dist/img/Hero.png) no-repeat center 0 scroll;
+  background-size: contain;
 }
 .Header__Home .Header__Nav {
   background-color: var(--color-black);
@@ -644,7 +651,9 @@ input[type='email'] {
 
 .Footer {
   color: var(--color-grayDarkest);
-  background-color: var(--color-grayLightest);
+  background: url(../dist/img/Footer.png) no-repeat top left scroll;
+  background-color: rgb(95, 173, 174);
+  background-size: contain;
   font-size: 0.8em;
   padding: 50px;
 }

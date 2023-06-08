@@ -13,7 +13,20 @@
       "url": "https://nx.app",
       "image": "assets/dist/img/sponsors/nx.png",
       "style": { "width": "175px" }
+    },
+    {
+      "name": "Clerk",
+      "url": "https://www.clerk.com/?utm_source=react_rally&utm_medium=sponsorship&utm_campaign=react_rally_august_2023",
+      "image": "assets/dist/img/sponsors/clerk.png",
+      "style": { "width": "175px" }
     }
   ],
-  "Silver": []
+  "Silver": [
+    {
+      "name": "Deepgram",
+      "url": "https://deepgram.com",
+      "image": "assets/dist/img/sponsors/deepgram.png",
+      "style": { "width": "150px" }
+    }
+  ]
 }
