@@ -662,6 +662,16 @@ input[type='email'] {
   grid-template-columns: 30% 30%;
   grid-column-gap: 40%;
 }
+.Footer__Grid__Left {
+  color: var(--color-white);
+  background: rgba(0, 0, 0, .33);
+  padding: 25px 10px 0;
+}
+.Footer .Footer__Grid__Left .Icon,
+.Footer .Footer__Grid__Left h2,
+.Footer .Footer__Grid__Left h4 {
+  color: var(--color-white);
+}
 .Footer h2,
 .Footer h4 {
   color: var(--color-grayDarkest);

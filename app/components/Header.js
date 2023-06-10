@@ -42,6 +42,7 @@ const HomeHeader = () => {
   return (
     <div className="Home__Header">
       <div className="Home__Header__Wrapper">
+        <div className="Home__Header__Wrapper__Content">
         <img
           src="assets/dist/img/ReactRallyLogo.png"
           alt="React Rally logo"
@@ -58,50 +59,51 @@ const HomeHeader = () => {
           </p>
           <div className="Home__Header__Buttons">
             {isConferenceLive ? (
-              <Link to="/stream" className="Button primary large">
-                Watch Live Stream
-              </Link>
-            ) : false ? (
-              <Countdown
-                date={new Date(
-                  Date.parse(constants.Dates.CONF_DAY_ONE) +
-                    DateUtils.HOURS * 9,
-                ).toISOString()}
-                label="Live stream coming soon"
-              />
-            ) : (
-              <span>
-                <Tickets />
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                {isCFPOpen && (
-                  <span>
-                    <Button
-                      href={constants.Links.PROPOSAL_FORM}
-                      className="large primary">
-                      Submit Proposal
-                    </Button>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                  </span>
-                )}
-                {isOpportunityScholarshipAvailable && (
-                  <span>
-                    <Button
-                      href={constants.Links.OPPORTUNITY_SCHOLARSHIP_FORM}
-                      className="large">
-                      Apply For Scholarship
-                    </Button>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                  </span>
-                )}
-              </span>
-            )}
-            {isHotelAvailable && (
-              <Button
-                href={constants.Links.HOTEL_RESERVATION}
-                className="large transparent">
-                Book Hotel
-              </Button>
-            )}
+                <Link to="/stream" className="Button primary large">
+                  Watch Live Stream
+                </Link>
+              ) : false ? (
+                <Countdown
+                  date={new Date(
+                    Date.parse(constants.Dates.CONF_DAY_ONE) +
+                      DateUtils.HOURS * 9,
+                  ).toISOString()}
+                  label="Live stream coming soon"
+                />
+              ) : (
+                <span>
+                  <Tickets />
+                  &nbsp;&nbsp;&nbsp;&nbsp;
+                  {isCFPOpen && (
+                    <span>
+                      <Button
+                        href={constants.Links.PROPOSAL_FORM}
+                        className="large primary">
+                        Submit Proposal
+                      </Button>
+                      &nbsp;&nbsp;&nbsp;&nbsp;
+                    </span>
+                  )}
+                  {isOpportunityScholarshipAvailable && (
+                    <span>
+                      <Button
+                        href={constants.Links.OPPORTUNITY_SCHOLARSHIP_FORM}
+                        className="large">
+                        Apply For Scholarship
+                      </Button>
+                      &nbsp;&nbsp;&nbsp;&nbsp;
+                    </span>
+                  )}
+                </span>
+              )}
+              {isHotelAvailable && (
+                <Button
+                  href={constants.Links.HOTEL_RESERVATION}
+                  className="large transparent">
+                  Book Hotel
+                </Button>
+              )}
+            </div>
           </div>
         </div>
       </div>

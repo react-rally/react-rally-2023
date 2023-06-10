@@ -20,23 +20,30 @@ input[type=email] {
   width: 223px;
 }
 
+.Header__Home {
+  background-size: cover;
+}
 .Header .Home__Header__Wrapper {
+  padding: 0;
+}
+.Header .Home__Header__Wrapper__Content {
   display: block;
   position: relative;
   padding: 25px;
+  max-inline-size: 100vw;
 }
-.Header .Home__Header__Wrapper h1 {
+.Header .Home__Header__Wrapper__Content h1 {
   font-size: var(--size-font-xlarge);
   margin-bottom: 10px;
 }
-.Header .Home__Header__Wrapper h2 {
+.Header .Home__Header__Wrapper__Content h2 {
   font-size: var(--size-font-large);
 }
-.Header .Home__Header__Wrapper h1,
-.Header .Home__Header__Wrapper h2 {
+.Header .Home__Header__Wrapper__Content h1,
+.Header .Home__Header__Wrapper__Content h2 {
   margin-left: 60px;
 }
-.Header .Home__Header__Wrapper .Home__Header__Logo {
+.Header .Home__Header__Wrapper__Content .Home__Header__Logo {
   position: absolute;
   top: 32px;
   left: 22px;
@@ -244,7 +251,7 @@ input[type=email] {
 }
 
 .Footer {
-  height: 750px;
+  height: 800px;
 }
 .Footer .Footer__Grid {
   display: block;
