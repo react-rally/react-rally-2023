@@ -84,12 +84,12 @@
     "github": "markerikson",
     "avatar": "assets/dist/img/speakers/acemarke.jpg"
   },
-  "codyzus": {
-    "name": "Cody Zuschlag",
-    "title": "Staff Developer Relations Engineer at NearForm",
-    "twitter": "codyzus",
-    "github": "codyzu",
-    "avatar": "assets/dist/img/speakers/codyzus.jpg"
+  "jenseng": {
+    "name": "Jon Jensen",
+    "title": "Senior Software Engineer at Netflix",
+    "twitter": "jenseng",
+    "github": "jenseng",
+    "avatar": "assets/dist/img/speakers/jenseng.jpg"
   },
   "sharonsteed": {
     "name": "Sharon Steed",

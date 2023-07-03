@@ -130,9 +130,9 @@
     },
     {
       "time": "11:30 am",
-      "title": "Design Tokens, Systems, and a Component’s Journey From Design to Deployment",
-      "speaker": "codyzus",
-      "description": "Design systems reduce design inconsistencies, eliminate process bottlenecks, and allow teams and organizations to scale. A design system of systems is a platform that allows an organization to provide the same advantages across multiple platforms, channels, and even brands. Too often it can feel like designers and developers work in different worlds and speak different languages. These challenges are compounded multiple times when working with multiple user-facing interfaces across platforms, channels, or brands. We built a design system of systems using JS allowing all teams to stay on brand on all platforms and projects. This included a cross-brand and cross-platform components library for teams delivering digital experiences. At the core of the systems of systems is a common language, design tokens, that breaks down the barriers between designers and developers."
+      "title": "You's the Platform!",
+      "speaker": "jenseng",
+      "description": "As web developers, it's sometimes easy to see \"The Platform\" as this thing we can't really change that does things for reasons we can't really understand. But that's not true! Browsers and specs are built by developers just like you and me, and the entire process is open source, which means we can do it too!\n\nLet's take a journey through a real web platform improvement from start to finish, learning how the WHATWG and browser vendors work. By the end you'll know how to update a spec, write web platform tests, land a change in major browsers, and document your shiny new feature on MDN!"
     },
     {
       "time": "12:00 pm",
