@@ -39,6 +39,14 @@ body {
   min-width: 360px;
 }
 
+code {
+  background: #eee;
+  border: 1px solid #ccc;
+  text-shadow: 1px 1px #fff;
+  padding: 0 3px;
+  border-radius: 5px;
+}
+
 a {
   color: var(--color-red);
   text-decoration: none;

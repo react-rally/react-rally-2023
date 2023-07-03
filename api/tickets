@@ -19,8 +19,8 @@
   },
   {
     "name": "Intro to React Workshop",
-    "price": 900,
-    "description": "Join Michael Chan for two-days of training with his React workshop August 15-16.",
+    "price": 500,
+    "description": "Join Michael Chan for a full day of training with his React workshop August 16.",
     "soldOut": false
   },
   {
