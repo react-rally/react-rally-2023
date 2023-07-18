@@ -15,6 +15,18 @@
     "name": "Standard",
     "price": 500,
     "description": "The real deal. One ticket to React Rally.",
+    "soldOut": true
+  },
+  {
+    "name": "Late Bird",
+    "price": 550,
+    "description": "One ticket to React Rally.",
+    "soldOut": false
+  },
+  {
+    "name": "Online",
+    "price": 50,
+    "description": "Remote ticket to view anywhere",
     "soldOut": false
   },
   {
