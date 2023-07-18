@@ -27,6 +27,18 @@
       "url": "https://deepgram.com",
       "image": "assets/dist/img/sponsors/deepgram.png",
       "style": { "width": "150px" }
+    },
+    {
+      "name": "Edge.io",
+      "url": "https://edg.io",
+      "image": "assets/dist/img/sponsors/edgio.png",
+      "style": { "width": "150px" }
+    },
+    {
+      "name": "JavaScript Jam",
+      "url": "https://www.javascriptjam.com/",
+      "image": "assets/dist/img/sponsors/javascript_jam.png",
+      "style": { "width": "150px" }
     }
   ]
 }
