@@ -88,17 +88,17 @@
     {
       "time": "8:00 pm",
       "title": "Party",
-      "description": "Meet at Ballroom for milkshakes, board games and karaoke."
+      "description": "Meet at Ballroom for some karaoke and fun."
     }
   ],
   "dayTwo": [
     {
-      "time": "7:00 am",
-      "title": "Registration"
-    },
-    {
       "time": "7:30 am",
       "title": "Breakfast"
+    },
+    {
+      "time": "8:00 am",
+      "title": "Registration"
     },
     {
       "time": "9:00 am",
@@ -166,10 +166,5 @@
       "speaker": "davidkpiano",
       "description": "React has quite the history. From React.createComponent to server components, React has evolved to be a mainstay in web development. But let's be honest, there's many un-use-ual things about React. In this talk, we'll revisit React's lifecycle from being a sprinkle of interactivity to wanting to be its own language, with plenty of puns, nostalgia, and a peek into the future of our favorite not-a-framework."
     },
-    {
-      "time": "6:30 pm",
-      "title": "Party",
-      "description": "Meet up for dinner, dessert, live music, and lawn games."
-    }
   ]
 }
