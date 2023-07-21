@@ -19,18 +19,24 @@
       "url": "https://www.clerk.com/?utm_source=react_rally&utm_medium=sponsorship&utm_campaign=react_rally_august_2023",
       "image": "assets/dist/img/sponsors/clerk.png",
       "style": { "width": "175px" }
+    },
+    {
+      "name": "Replay",
+      "url": "https://www.replay.io/?utm_source=react_rally&utm_medium=sponsorship&utm_campaign=react_rally_august_2023",
+      "image": "assets/dist/img/sponsors/replay.png",
+      "style": { "width": "175px" }
     }
   ],
   "Silver": [
     {
       "name": "Deepgram",
-      "url": "https://deepgram.com",
+      "url": "https://deepgram.com/?utm_source=react_rally&utm_medium=sponsorship&utm_campaign=react_rally_august_2023",
       "image": "assets/dist/img/sponsors/deepgram.png",
       "style": { "width": "150px" }
     },
     {
       "name": "Edge.io",
-      "url": "https://edg.io",
+      "url": "https://edg.io/?utm_source=react_rally&utm_medium=sponsorship&utm_campaign=react_rally_august_2023",
       "image": "assets/dist/img/sponsors/edgio.png",
       "style": { "width": "150px" }
     },
