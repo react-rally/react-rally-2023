@@ -20,13 +20,13 @@
   {
     "name": "Late Bird",
     "price": 550,
-    "description": "Better late than never! One ticket to React Rally.",
+    "description": "Better late than never! One ticket to React Rally. Swag is not guaranteed.",
     "soldOut": false
   },
   {
     "name": "Online",
     "price": 50,
-    "description": "Remote ticket to view anywhere",
+    "description": "Remote ticket to view anywhere.",
     "soldOut": false
   },
   {
@@ -36,7 +36,7 @@
     "soldOut": false
   },
   {
-    "name": "Web App Fundamentals - Remix Workshop",
+    "name": "Full Stack Foundations",
     "price": 500,
     "description": "Join Kent C. Dodds for a full day of training with his Remix workshop August 16.",
     "soldOut": false
