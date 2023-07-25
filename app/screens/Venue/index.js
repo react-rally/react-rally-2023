@@ -51,6 +51,7 @@ export default () => {
         </div>
       </section>
 
+      {/*
       <section>
         <h2>The Afterparty</h2>
         <div className="Venue__Details">
@@ -75,6 +76,7 @@ export default () => {
           </div>
         </div>
       </section>
+      */}
     </div>
   );
 };
