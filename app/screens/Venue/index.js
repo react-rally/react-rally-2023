@@ -18,7 +18,7 @@ export default () => {
         <div className="Venue__Details">
           <div className="Venue__Details__Mapbox">
             <a href={constants.Links.VENUE_DIRECTIONS} aria-label="Map directions to venue." target="_blank">
-              <img src="assets/dist/img/Sheraton_Map.png" alt="" width="400" />
+              <img src="assets/dist/img/Marriott_Map.png" alt="" width="400" />
             </a>
             <div className="Venue__Details__Mapbox__Address">
               <strong>{constants.Venue.Hotel.NAME}</strong>
