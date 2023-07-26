@@ -45,6 +45,12 @@
       "url": "https://www.javascriptjam.com/",
       "image": "assets/dist/img/sponsors/javascript_jam.png",
       "style": { "height": "100px" }
+    },
+    {
+      "name": "Stately",
+      "url": "https://stately.ai/",
+      "image": "assets/dist/img/sponsors/stately.png",
+      "style": { "height": "100px" }
     }
   ]
 }
