@@ -25,6 +25,12 @@
       "url": "https://www.replay.io/?utm_source=react_rally&utm_medium=sponsorship&utm_campaign=react_rally_august_2023",
       "image": "assets/dist/img/sponsors/replay.png",
       "style": { "width": "175px" }
+    },
+    {
+      "name": "Aumni",
+      "url": "https://www.aumni.fund/",
+      "image": "assets/dist/img/sponsors/Aumni.png",
+      "style": { "width": "175px" }
     }
   ],
   "Silver": [
