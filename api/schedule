@@ -88,7 +88,7 @@
     {
       "time": "8:00 pm",
       "title": "Party",
-      "description": "Meet at Ballroom for some karaoke and fun."
+      "description": "Meet at Ballroom for some fun."
     }
   ],
   "dayTwo": [
@@ -107,48 +107,42 @@
       "description": ""
     },
     {
-      "time": "9:30 am",
+      "time": "10:00 am",
+      "title": "Break"
+    },
+    {
+      "time": "10:30 am",
       "title": "Why everybody needs to use a framework",
       "speaker": "TejasKumar_",
       "description": "The prevalent advice on how to use React today is to use a framework: either to start with one or to incrementally adopt one. This talk will explore why, and how to go about this with live code examples."
     },
     {
       "time": "10:00 am",
-      "title": "Break"
-    },
-    {
-      "time": "10:30 am",
       "title": "Opt-in design - the new era of React frameworks",
       "speaker": "bholmesdev",
       "description": "Picking up a new technology, developers stick with defaults. It's a fact that every tool from JQuery to NextJS has needed to face. At their worst, defaults ship hundreds of wasted JS kilobytes for routing, state, and other baggage developers may never use. But at their best, defaults give us a simple baseline to start from, with a clear path to add the exact set of features our project demands. This is the magic of opt-in design.\n\nLet's see how smart defaults guide modern frontend tools from Astro to React Server Components, and why this new era reshapes your workflow, and website performance metrics, for the better."
     },
     {
-      "time": "11:00 am",
+      "time": "11:30 am",
       "title": "Suspense + GraphQL = Superpowers",
       "speaker": ["alessbell", "jerelmiller"],
       "description": "React has been empowering developers to build great apps since it was open sourced in 2013. With the introduction of Suspense, developers now have an ergonomic way to orchestrate loading states to improve on the status quo. In this talk, the Apollo Client team will show you how we built a non-trivial application using Apollo Client’s new Suspense features, GraphQL features like the @defer directive, and how to combine them to build great user experiences in your own apps."
-    },
-    {
-      "time": "11:30 am",
-      "title": "You's the Platform!",
-      "speaker": "jenseng",
-      "description": "As web developers, it's sometimes easy to see \"The Platform\" as this thing we can't really change that does things for reasons we can't really understand. But that's not true! Browsers and specs are built by developers just like you and me, and the entire process is open source, which means we can do it too!\n\nLet's take a journey through a real web platform improvement from start to finish, learning how the WHATWG and browser vendors work. By the end you'll know how to update a spec, write web platform tests, land a change in major browsers, and document your shiny new feature on MDN!"
     },
     {
       "time": "12:00 pm",
       "title": "Lunch"
     },
     {
-      "time": "2:00 pm",
-      "title": "A Guide to React Rendering Behavior",
-      "speaker": "acemarke",
-      "description": "React is a library for \"rendering\" UI from components, but many users find themselves confused about how React rendering actually works. What do terms like \"rendering\", \"reconciliation\", \"Fibers\", and \"committing\" actually mean? When do renders happen? How does Context affect rendering, and how do libraries like Redux cause updates?\n\nIn this talk, we'll clear up the confusion and provide a solid foundation for understanding when, why, and how React renders."
+      "time": "2:00 am",
+      "title": "You's the Platform!",
+      "speaker": "jenseng",
+      "description": "As web developers, it's sometimes easy to see \"The Platform\" as this thing we can't really change that does things for reasons we can't really understand. But that's not true! Browsers and specs are built by developers just like you and me, and the entire process is open source, which means we can do it too!\n\nLet's take a journey through a real web platform improvement from start to finish, learning how the WHATWG and browser vendors work. By the end you'll know how to update a spec, write web platform tests, land a change in major browsers, and document your shiny new feature on MDN!"
     },
     {
       "time": "2:30 pm",
-      "title": "It's 2023 and I Can Finally Talk About Atomic CSS",
-      "speaker": "ythecombinator",
-      "description": "Libraries like Tailwind became quite popular and their utility-first—aka atomic classes—approach was an interesting paradigm shift in CSS. Many developers love it, and it's understandable why.\n\nHowever, we tend to forget that the core of this technique isn't new. Way before Bootstrap we all had our own small CSS snippets copied from project to project with similar classes.\n\nHowever, there are good reasons why we stopped doing that for a while and we should discuss them before using them everywhere.\n\nIn this session, we'll discuss the evolution of scalable CSS, walk through the limitations and drawbacks of Atomic CSS, and also figure out where this concept can come in handy."
+      "title": "A Guide to React Rendering Behavior",
+      "speaker": "acemarke",
+      "description": "React is a library for \"rendering\" UI from components, but many users find themselves confused about how React rendering actually works. What do terms like \"rendering\", \"reconciliation\", \"Fibers\", and \"committing\" actually mean? When do renders happen? How does Context affect rendering, and how do libraries like Redux cause updates?\n\nIn this talk, we'll clear up the confusion and provide a solid foundation for understanding when, why, and how React renders."
     },
     {
       "time": "3:00 pm",
@@ -156,12 +150,18 @@
     },
     {
       "time": "3:30 pm",
+      "title": "It's 2023 and I Can Finally Talk About Atomic CSS",
+      "speaker": "ythecombinator",
+      "description": "Libraries like Tailwind became quite popular and their utility-first—aka atomic classes—approach was an interesting paradigm shift in CSS. Many developers love it, and it's understandable why.\n\nHowever, we tend to forget that the core of this technique isn't new. Way before Bootstrap we all had our own small CSS snippets copied from project to project with similar classes.\n\nHowever, there are good reasons why we stopped doing that for a while and we should discuss them before using them everywhere.\n\nIn this session, we'll discuss the evolution of scalable CSS, walk through the limitations and drawbacks of Atomic CSS, and also figure out where this concept can come in handy."
+    },
+    {
+      "time": "4:00 pm",
       "title": "Remix: Embracing Web Standards to Redefine Modern Web Development",
       "speaker": "alexadark",
       "description": "Discover the power of Remix, a groundbreaking full-stack framework that embraces web standards to redefine modern web development.\n\nAs developers grapple with complex tools and frameworks, creating performant and maintainable applications becomes increasingly challenging.\n\nWhat if there's a solution that leverages core web principles to streamline development? Enter Remix\n\nIn this talk, learn how Remix harnesses web standards, such as URLs, Fetch API, HTML, and HTTP caching, to elevate developer and user experiences, ultimately empowering you to become a better developer!"
     },
     {
-      "time": "4:00 pm",
+      "time": "4:30 pm",
       "title": "useWat",
       "speaker": "davidkpiano",
       "description": "React has quite the history. From React.createComponent to server components, React has evolved to be a mainstay in web development. But let's be honest, there's many un-use-ual things about React. In this talk, we'll revisit React's lifecycle from being a sprinkle of interactivity to wanting to be its own language, with plenty of puns, nostalgia, and a peek into the future of our favorite not-a-framework."
