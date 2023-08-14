@@ -10,7 +10,7 @@
     },
     {
       "time": "9:00 am",
-      "title": "TBD",
+      "title": "The Frontend Family Tree",
       "speaker": "twerske",
       "description": ""
     },
@@ -18,7 +18,7 @@
       "time": "9:30 am",
       "title": "TBD",
       "speaker": "indigitalcolor",
-      "description": ""
+      "description": "What can React learn from Angular? In this talk, we’ll look at how frameworks are all working to solve developer’s problems and how the latest changes in Angular, might just solve React’s problems too."
     },
     {
       "time": "10:00 am",
