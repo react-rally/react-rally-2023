@@ -59,9 +59,18 @@ const HomeHeader = () => {
           </p>
           <div className="Home__Header__Buttons">
             {isConferenceLive ? (
+                <a
+                  className="Button primary large"
+                  href="https://ti.to/react-rally/react-rally-2023/with/o-aluiajzn0"
+                  target="_blank"
+                >
+                  Watch Live Stream
+                </a>
+                /*
                 <Link to="/stream" className="Button primary large">
                   Watch Live Stream
                 </Link>
+                */
               ) : false ? (
                 <Countdown
                   date={new Date(
