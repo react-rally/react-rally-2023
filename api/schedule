@@ -83,12 +83,12 @@
     {
       "time": "6:00 pm",
       "title": "Dinner",
-      "description": "Meet up with conference attendees sharing similar taste in cuisine at pre-arranged restaurants for dinner (self pay)."
+      "description": "Dinner with your new friends! Check out the app for a list of suggested restaurants."
     },
     {
       "time": "8:00 pm",
       "title": "Party",
-      "description": "Meet at Ballroom for some fun."
+      "description": "Meet in the Skylight ballroom on the 2nd floor for karaoke, board games and fun."
     }
   ],
   "dayTwo": [
@@ -97,7 +97,7 @@
       "title": "Breakfast"
     },
     {
-      "time": "8:00 am",
+      "time": "8:30 am",
       "title": "Registration"
     },
     {
